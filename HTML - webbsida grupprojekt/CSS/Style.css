@@ -12,7 +12,7 @@ body {
 /* Sidhuvud */
 header {
     background-color: #B6857C;
-    Padding: 1rem 1rem;
+    Padding: 1rem;
 }
 
 /* Meny */
@@ -125,12 +125,12 @@ p {
 footer {
     background-color: #B6857C;
     color: #F2E8DC;
-    text-align: center;
-    padding: 2rem 0;
+    padding: 1rem
 }
 
-footer h2 {
-    color: #F2E8DC;
-    font-size: 20px;
-    padding-bottom: 0.5rem;
+footer section {
+    display: inline-block;
+    width: 15rem;
+    vertical-align: top;
+    padding-left: 1.5rem;
 }

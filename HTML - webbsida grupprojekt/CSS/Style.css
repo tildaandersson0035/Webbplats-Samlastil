@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Bakgrund */
+body {
+    Background-color: #F2E8DC;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Sidhuvud */
+header {
+    background-color: #B6857C;
+    Padding: 1rem 1rem;
+}
+
+/* Meny */
+.huvudlista {
+    display: inline-block;
+    padding-left: 1.5rem;
+}
+
+.huvudlista a {
+    text-decoration: none;
+    color: #F2E8DC;
+}
+
+.undermeny {
+    display: none;
+    position: absolute;
+    list-style: none;
+}
+
+.huvudlista:hover .undermeny {
+    display: block;
+    background-color: #B6857C;
+    padding: 1rem;
+}
+
+.underlista {
+    margin-top: 0.4rem;
+}
+
+.underlista a {
+    text-decoration: none;
+    color: #F2E8DC;
+}
+
+.underlista a:hover {
+    text-decoration: underline;
+}
+
+/* Huvudinnehåll */
+
+.concept {
+    background-image: url("../Images/Clothes-rail.jpg");
+    background-size: cover;
+    padding: 7rem 0;
+}
+
+.concept h1 {
+    background-color: #B6857C;
+    width: fit-content;
+    margin: 2rem auto;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #F2E8DC;
+}
+
+h2 {
+    font-size: 30px;
+    color: #B6857C;
+}
+
+p {
+    font-size: 15px;
+}
+
+.categories {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.categories li {
+    list-style: none;
+    padding: 1rem;
+    margin-bottom: 4rem;
+    border: 2px solid #B6857C;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.categories li img {
+    margin-bottom: 0.5rem;
+    max-width: 100%;
+    border-radius: 5rem;
+}
+
+.categories a {
+    text-decoration: none;
+    color: #F2E8DC;
+    background-color: #B6857C;
+    border-radius: 5rem;
+    width: 70%;
+    padding: 0.5rem;
+}
+
+.values {
+    display: flex;
+    justify-content: center;
+}
+
+/* Sidfot */
+footer {
+    background-color: #B6857C;
+    color: #F2E8DC;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+footer h2 {
+    color: #F2E8DC;
+    font-size: 20px;
+    padding-bottom: 0.5rem;
+}

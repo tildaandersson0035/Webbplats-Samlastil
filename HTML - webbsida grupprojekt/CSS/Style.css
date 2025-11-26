@@ -51,6 +51,10 @@ header {
     text-decoration: underline;
 }
 
+.huvudlista a:hover {
+    text-decoration: underline;
+}
+
 /* Huvudinnehåll */
 
 .concept {
@@ -65,9 +69,6 @@ header {
     margin: 2rem auto;
     padding: 1rem;
     border-radius: 2rem;
-}
-
-h1 {
     font-size: 40px;
     font-weight: bold;
     color: #F2E8DC;
@@ -78,21 +79,17 @@ h2 {
     color: #B6857C;
 }
 
-p {
-    font-size: 15px;
-}
-
 .categories {
     display: flex;
     justify-content: center;
     gap: 2rem;
     margin-top: 2rem;
+    margin-bottom: 4rem;
 }
 
 .categories li {
     list-style: none;
     padding: 1rem;
-    margin-bottom: 4rem;
     border: 2px solid #B6857C;
     border-radius: 2rem;
     display: flex;
@@ -111,9 +108,16 @@ p {
     text-decoration: none;
     color: #F2E8DC;
     background-color: #B6857C;
+    border: 2px solid #F2E8DC;
     border-radius: 5rem;
     width: 70%;
     padding: 0.5rem;
+}
+
+.categories a:hover {
+    color: #B6857C;
+    background-color: #F2E8DC;
+    border: 2px solid #B6857C;
 }
 
 .values {
@@ -125,12 +129,13 @@ p {
 footer {
     background-color: #B6857C;
     color: #F2E8DC;
-    padding: 1rem
+    padding: 2rem 1rem;
 }
 
 footer section {
     display: inline-block;
-    width: 15rem;
+    width: 18rem;
     vertical-align: top;
     padding-left: 1.5rem;
+    line-height: 1.5;
 }

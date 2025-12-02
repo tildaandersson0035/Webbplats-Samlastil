@@ -58,7 +58,7 @@ header {
 /* Huvudinnehåll */
 
 .concept {
-    background-image: url("../Images/Clothes-rail.jpg");
+    background-image: url("../images/clothes-rail.jpg");
     background-size: cover;
     padding: 7rem 0;
 }
@@ -113,7 +113,7 @@ h2 {
     border-radius: 5rem;
     width: 70%;
     padding: 0.5rem;
-    margin-top:auto;
+    margin-top: auto;
 }
 
 .categories a:hover {

@@ -11,7 +11,7 @@ body {
 
 /* Sidhuvud */
 header {
-    background-color: #B6857C;
+    background-color: #753F2F;
     Padding: 1rem;
 }
 
@@ -34,7 +34,7 @@ header {
 
 .huvudlista:hover .undermeny {
     display: block;
-    background-color: #B6857C;
+    background-color: #753F2F;
     padding: 1rem;
 }
 
@@ -64,7 +64,7 @@ header {
 }
 
 .concept h1 {
-    background-color: #B6857C;
+    background-color: #753F2F;
     width: fit-content;
     margin: 2rem auto;
     padding: 1rem;
@@ -76,7 +76,7 @@ header {
 
 h2 {
     font-size: 30px;
-    color: #B6857C;
+    color: #753F2F;
 }
 
 .categories {
@@ -90,7 +90,7 @@ h2 {
 .categories li {
     list-style: none;
     padding: 1rem;
-    border: 2px solid #B6857C;
+    border: 2px solid #753F2F;
     border-radius: 2rem;
     display: flex;
     flex-direction: column;
@@ -108,7 +108,7 @@ h2 {
 .categories a {
     text-decoration: none;
     color: #F2E8DC;
-    background-color: #B6857C;
+    background-color: #753F2F;
     border: 2px solid #F2E8DC;
     border-radius: 5rem;
     width: 70%;
@@ -117,9 +117,9 @@ h2 {
 }
 
 .categories a:hover {
-    color: #B6857C;
+    color: #753F2F;
     background-color: #F2E8DC;
-    border: 2px solid #B6857C;
+    border: 2px solid #753F2F;
 }
 
 .values {
@@ -129,7 +129,7 @@ h2 {
 
 /* Sidfot */
 footer {
-    background-color: #B6857C;
+    background-color: #753F2F;
     color: #F2E8DC;
     padding: 2rem 1rem;
 }

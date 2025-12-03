@@ -76,7 +76,7 @@ header {
 
 h2 {
     font-size: 30px;
-    color: #B6857C;
+    color: #86564B;
 }
 
 .categories {
@@ -140,4 +140,103 @@ footer section {
     vertical-align: top;
     padding-left: 1.5rem;
     line-height: 1.5;
+}
+
+.titel {
+    text-align: center;
+    margin: 30px 0;
+    color: #B6857C;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+/* Grid-layout */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.product-card {
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product-card h3 {
+    margin: 15px 0 5px;
+    color: #B6857C;
+    font-size: 25px;
+}
+
+/* Bilder – Överdelar */
+.top-img {
+    width: 100%;
+    height: 380px;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+}
+
+/* Bilder – Byxor */
+.pants-img {
+    width: 100%;
+    aspect-ratio: 2 / 3;
+    /* högre proportion för byxor */
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+}
+
+/*Bilder- skor*/
+.shoes-img {
+    width: 100%;
+    aspect-ratio: 4 / 2;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+}
+
+/*Bilder - hudvård och smink*/
+.beauty-img {
+    width: 100%;
+    height: 380px;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+}
+
+
+
+/*Köpknapp*/
+.price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #B6857C;
+    margin: 10px 0 15px;
+}
+
+.button {
+    background-color: #B6857C;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.button:hover {
+    background-color: #F2E8DC;
+    transform: translateY(-2px);
+}
+
+.button:active {
+    transform: translateY(0);
 }

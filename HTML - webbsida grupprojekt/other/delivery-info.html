@@ -48,7 +48,34 @@
         </nav>
     </header>
     <main>
+        <div class="form-header">
+            <h2>Leveransinformation</h2>
+            <p>Vänligen fyll i dina uppgifter nedan. All information behandlas säkert och används endast för att
+                fullfölja din beställning.</p>
+        </div>
         <!--Formulär för leverans-->
+        <form action="order-placed.html" method="GET">
+            <div>
+                <label for="name" class="sr-only">Namn:</label>
+                <input type="text" id="name" name="name" placeholder="Fullständigt namn" required>
+            </div>
+            <div>
+                <label for="address" class="sr-only">Adress:</label>
+                <input type="text" id="address" name="address" placeholder="Adress" required>
+            </div>
+            <div class="city-postal-group">
+                <div>
+                    <label for="city" class="sr-only">Stad:</label>
+                    <input type="text" id="city" name="city" placeholder="Stad" required>
+                </div>
+                <div>
+                    <label for="postal-code" class="sr-only">Postnummer:</label>
+                    <input type="text" inputmode="numeric" id="postal-code" name="postal-code" placeholder="Postnummer"
+                        required>
+                </div>
+            </div>
+            <input type="submit" value="Lägg beställning">
+        </form>
     </main>
     <footer>
         <section>

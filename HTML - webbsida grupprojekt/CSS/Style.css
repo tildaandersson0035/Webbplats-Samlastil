@@ -76,7 +76,7 @@ header {
 
 h2 {
     font-size: 30px;
-    color: #86564B;
+    color: #936861;
 }
 
 .categories {
@@ -142,10 +142,11 @@ footer section {
     line-height: 1.5;
 }
 
-.titel {
+/* Titel produktsidor */
+.title {
     text-align: center;
     margin: 30px 0;
-    color: #B6857C;
+    color: #936861;
     font-size: 50px;
     font-weight: bold;
 }

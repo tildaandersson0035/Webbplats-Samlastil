@@ -188,7 +188,6 @@ footer section {
 .pants-img {
     width: 100%;
     aspect-ratio: 2 / 3;
-    /* högre proportion för byxor */
     object-fit: cover;
     border-radius: 10px;
     display: block;
@@ -231,6 +230,8 @@ footer section {
     border-radius: 8px;
     cursor: pointer;
     transition: 0.3s ease;
+    text-decoration: none; 
+    display: inline-block; 
 }
 
 .button:hover {

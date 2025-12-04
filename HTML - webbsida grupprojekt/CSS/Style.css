@@ -211,8 +211,6 @@ footer section {
     display: block;
 }
 
-
-
 /*Köpknapp*/
 .price {
     font-size: 20px;
@@ -242,6 +240,61 @@ footer section {
 .button:active {
     transform: translateY(0);
 }
+
+/*Kontakta oss länk*/
+.contact {
+    color: #F2E8DC;
+    text-decoration: none;
+}
+
+/*Kontaktformulär sida*/
+.contact-section form {
+    background-color: #B6857C;
+    padding: 1rem;
+    border-radius: 8px;
+    max-width: 500px;
+    margin: 3rem auto;
+}
+
+.contact-section form div {
+    margin-bottom: 0.5rem;
+}
+
+.contact-section form input[type="text"],
+.contact-section form input[type="email"],
+.contact-section form textarea {
+    padding: 1rem;
+    border-radius: 8px;
+    font-size: 15px;
+    background-color: #F2E8DC;
+    border: none;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.contact-section form input[type="text"]:focus,
+.contact-section form input[type="email"]:focus,
+.contact-section form textarea:focus {
+    outline: 2px solid #936861;
+}
+
+.contact-section form input[type="submit"] {
+    background-color: #936861;
+    color: #F2E8DC;
+    border: none;
+    padding: 1rem;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.contact-section form input[type="submit"]:hover {
+    background-color: #894f46;
+}
+
 
 /*Leveransinfo sida*/
 

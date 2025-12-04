@@ -48,39 +48,25 @@
         </nav>
     </header>
     <main>
-        <h2 class="title">Herr skor</h2>
+<section class="contact-section">
+    <h2 class="title">Kontakta oss</h2>
 
-        <section class="product-grid">
-            <!-- Produkt 1 -->
-            <div class="product-card">
-                <img class="shoes-img" src="../images/shoes-men.jpg" alt="Svarta finskor till herrar">
-                <h3>Finskor</h3>
-                <p>Eleganta svarta finskor i läder, perfekta för formella tillfällen och kontorsbruk. Bekväma och
-                    stilrena med en klassisk design.</p>
-                <p class="price">499 kr</p>
-                <a href="../other/delivery-info.html" class="button">Köp</a>
-            </div>
-
-            <!-- Produkt 2 -->
-            <div class="product-card">
-                <img class="shoes-img" src="../images/men-sneakers.jpg" alt="Mörka sneakers för herrar">
-                <h3>Sneakers</h3>
-                <p>Stilrena mörka sneakers som kombinerar komfort och mode. Perfekta för vardagsbruk och ger en
-                    avslappnad look.</p>
-                <p class="price">399 kr</p>
-                <a href="../other/delivery-info.html" class="button">Köp</a>
-            </div>
-
-            <!-- Produkt 3 -->
-            <div class="product-card">
-                <img class="shoes-img" src="../images/men-wintershoes.jpg" alt="Bruna vinterkängor för herrar">
-                <h3>Vinterskor</h3>
-                <p>Robusta bruna vinterkängor som håller fötterna varma och torra under kalla månader. Tillverkade av
-                    slitstarkt material med bra grepp.</p>
-                <p class="price">499 kr</p>
-                <a href="../other/delivery-info.html" class="button">Köp</a>
-            </div>
-        </section>
+    <form action="#" method="post">
+        <div>
+            <label for="contact-name" class="sr-only">Namn:</label>
+            <input type="text" id="contact-name" name="name" placeholder="Fullständigt namn" required>
+        </div>
+        <div>
+            <label for="contact-email" class="sr-only">E-post:</label>
+            <input type="email" id="contact-email" name="email" placeholder="Din email" required>
+        </div>
+        <div>
+            <label for="contact-message" class="sr-only">Meddelande:</label>
+            <textarea id="contact-message" name="message" placeholder="Skriv ditt meddelande här..." rows="5" required></textarea>
+        </div>
+        <input type="submit" value="Skicka">
+    </form>
+</section>
     </main>
     <footer>
         <section>

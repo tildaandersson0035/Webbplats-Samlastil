@@ -258,8 +258,7 @@ footer section {
 /*FAQ sida*/
 .faq-section {
     display: block;
-    margin: auto;
-    margin-bottom: 3rem;
+    margin: 3rem auto 3rem;
     font-size: large;
     color: #936861;
     max-width: 75%;

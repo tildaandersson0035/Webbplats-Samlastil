@@ -241,6 +241,20 @@ footer section {
     transform: translateY(0);
 }
 
+/*FAQ länk*/
+.faq {
+    color: #F2E8DC;
+    text-decoration: none;
+}
+
+.faq:hover {
+    text-decoration: underline;
+}
+
+.faq:visited {
+    color:#F2E8DC;
+}
+
 /*Kontakta oss länk*/
 .contact {
     color: #F2E8DC;

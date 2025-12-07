@@ -255,6 +255,30 @@ footer section {
     color:#F2E8DC;
 }
 
+/*FAQ sida*/
+.faq-section {
+    display: block;
+    margin: auto;
+    margin-bottom: 3rem;
+    font-size: large;
+    color: #894f46;
+    max-width: 75%;
+    border: #894f46 1px solid;
+    border-radius: 8px;
+}
+
+.faq-section details {
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.faq-section summary {
+    margin: 1rem;
+    color: #B6857C;
+    font-weight: bold;
+    cursor: pointer;
+}
+
 /*Kontakta oss länk*/
 .contact {
     color: #F2E8DC;

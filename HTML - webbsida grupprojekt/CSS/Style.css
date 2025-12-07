@@ -263,8 +263,8 @@ footer section {
     font-size: large;
     color: #894f46;
     max-width: 75%;
-    border: #894f46 1px solid;
-    border-radius: 8px;
+    border: #894f46 2px solid;
+    border-radius: 2rem;
 }
 
 .faq-section details {
@@ -274,9 +274,19 @@ footer section {
 
 .faq-section summary {
     margin: 1rem;
-    color: #B6857C;
+    padding: 1rem;
+    border-radius: 5rem;
+    background-color: #B6857C;
+    color: #F2E8DC;
+    max-width: 50%;
     font-weight: bold;
     cursor: pointer;
+}
+
+.faq-section summary:hover{
+    color:#894f46;
+    background-color: #F2E8DC;
+    border: #894f46 2px solid;
 }
 
 /*Kontakta oss länk*/

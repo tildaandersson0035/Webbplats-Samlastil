@@ -26,6 +26,12 @@ header {
     color: #F2E8DC;
 }
 
+.huvudlista a.active {
+    background-color: #936861;
+    padding: 3px;
+    border-radius: 2px;
+}
+
 .undermeny {
     display: none;
     position: absolute;

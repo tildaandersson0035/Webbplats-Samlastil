@@ -84,6 +84,7 @@ footer section {
     text-decoration: none;
 }
 
+
 .faq:hover {
     text-decoration: underline;
 }
@@ -92,9 +93,25 @@ footer section {
     color: #F2E8DC;
 }
 
+.faq a.active{
+    background-color: #936861;
+    color: #F2E8DC;
+    padding: 3px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
 /*Kontakta oss länk*/
 .contact {
     color: #F2E8DC;
+    text-decoration: none;
+}
+
+.contact a.active{
+    background-color: #936861;
+    color: #F2E8DC;
+    padding: 3px;
+    border-radius: 2px;
     text-decoration: none;
 }
 

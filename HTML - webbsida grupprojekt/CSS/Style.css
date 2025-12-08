@@ -3,13 +3,13 @@
     padding: 0;
 }
 
-/* Bakgrund */
+/* Bakgrunds färg och typsnitt */
 body {
     Background-color: #F2E8DC;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-/* Sidhuvud */
+/* --------------- Sidhuvud ---------------------*/
 header {
     background-color: #B6857C;
     Padding: 1rem;
@@ -55,8 +55,48 @@ header {
     text-decoration: underline;
 }
 
-/* Huvudinnehåll index */
+/* --------------- Sidhuvud slut ---------------------*/
 
+/* --------------- Sidfot ---------------------*/
+footer {
+    background-color: #B6857C;
+    color: #F2E8DC;
+    padding: 2rem 1rem;
+}
+
+footer section {
+    display: inline-block;
+    width: 18rem;
+    vertical-align: top;
+    padding-left: 1.5rem;
+    line-height: 1.5;
+}
+
+/*FAQ länk*/
+.faq {
+    color: #F2E8DC;
+    text-decoration: none;
+}
+
+.faq:hover {
+    text-decoration: underline;
+}
+
+.faq:visited {
+    color: #F2E8DC;
+}
+
+/*Kontakta oss länk*/
+.contact {
+    color: #F2E8DC;
+    text-decoration: none;
+}
+
+/* --------------- Sidfot slut ---------------------*/
+
+/* --------------- Indexsida ---------------------*/
+
+/* Koncept */
 .concept {
     background-image: url("../images/clothes-rail.jpg");
     background-size: cover;
@@ -74,11 +114,13 @@ header {
     color: #F2E8DC;
 }
 
+/* kategori rubrik */
 h2 {
     font-size: 30px;
     color: #936861;
 }
 
+/* kategorier */
 .categories {
     display: flex;
     justify-content: center;
@@ -122,27 +164,11 @@ h2 {
     border: 2px solid #B6857C;
 }
 
-.values {
-    display: flex;
-    justify-content: center;
-}
+/* --------------- Indexsida slut ---------------------*/
 
-/* Sidfot */
-footer {
-    background-color: #B6857C;
-    color: #F2E8DC;
-    padding: 2rem 1rem;
-}
+/* --------------- Produktsidor ---------------------*/
 
-footer section {
-    display: inline-block;
-    width: 18rem;
-    vertical-align: top;
-    padding-left: 1.5rem;
-    line-height: 1.5;
-}
-
-/* Titel produktsidor */
+/* Titel */
 .title {
     text-align: center;
     margin: 3rem 0;
@@ -151,7 +177,7 @@ footer section {
     font-weight: bold;
 }
 
-/* Grid-layout produktsidor */
+/* Grid-layout */
 .product-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -228,8 +254,8 @@ footer section {
     border-radius: 8px;
     cursor: pointer;
     transition: 0.3s ease;
-    text-decoration: none; 
-    display: inline-block; 
+    text-decoration: none;
+    display: inline-block;
 }
 
 .button:hover {
@@ -241,27 +267,16 @@ footer section {
     transform: translateY(0);
 }
 
-/*FAQ länk*/
-.faq {
-    color: #F2E8DC;
-    text-decoration: none;
-}
+/* --------------- Produktsidor slut ---------------------*/
 
-.faq:hover {
-    text-decoration: underline;
-}
-
-.faq:visited {
-    color:#F2E8DC;
-}
-
-/*FAQ sida*/
+/* --------------- FAQ sida ---------------------*/
 .faq-section {
     display: block;
     margin: 3rem auto 3rem;
     font-size: large;
     color: #936861;
-    max-width: 75%;
+    max-width: 50%;
+    text-align: center;
     border: #936861 2px solid;
     border-radius: 2rem;
 }
@@ -271,8 +286,15 @@ footer section {
     margin: 1rem;
 }
 
+.faq-section details p {
+    margin: auto;
+    max-width: 75%;
+    line-height: 2cap;
+}
+
 .faq-section summary {
-    margin: 1rem;
+    margin: auto;
+    margin-bottom: 1rem;
     padding: 1rem;
     border-radius: 5rem;
     background-color: #B6857C;
@@ -282,23 +304,22 @@ footer section {
     cursor: pointer;
 }
 
-.faq-section summary:hover{
-    color:#936861;
+.faq-section summary:hover {
+    color: #936861;
     background-color: #F2E8DC;
     border: #936861 2px solid;
 }
 
-/*Kontakta oss länk*/
-.contact {
-    color: #F2E8DC;
-    text-decoration: none;
-}
+/* --------------- FAQ sida slut---------------------*/
+
+/* --------------- Kontakt sida ---------------------*/
 
 .contact:hover {
     text-decoration: underline;
 }
 
 /*Kontaktformulär sida*/
+/*Kontaktformulär*/
 .contact-section form {
     background-color: #B6857C;
     padding: 1rem;
@@ -346,9 +367,12 @@ footer section {
     background-color: #894f46;
 }
 
+/* --------------- Kontakt sida slut ---------------------*/
 
-/*Leveransinfo sida*/
 
+/* --------------- Leverans sida ---------------------*/
+
+/*Leveransformulär*/
 form {
     background-color: #B6857C;
     padding: 1rem;
@@ -414,6 +438,7 @@ form input[type="submit"]:hover {
     border: 0;
 }
 
+/* Textruta över formulär */
 .form-header {
     max-width: 500px;
     margin: 3rem auto;
@@ -432,7 +457,10 @@ form input[type="submit"]:hover {
     font-size: 18px;
 }
 
-/* Order lagd sida */
+/* --------------- Leverans sida slut---------------------*/
+
+/* --------------- Order lagd sida ---------------------*/
+
 .confirmation-box {
     max-width: 700px;
     margin: 7rem auto;
@@ -451,6 +479,7 @@ form input[type="submit"]:hover {
     font-size: 18px;
 }
 
+/* Vad händer nu ruta */
 .next-steps {
     text-align: left;
     border: 2px solid #B6857C;
@@ -492,10 +521,4 @@ form input[type="submit"]:hover {
     border-radius: 3px;
 }
 
-/*Fix för att minska CLS*/
-.logo {
-    width: 200px;
-    aspect-ratio: 5 / 2; 
-    height: auto;
-    display: block;
-}
+/* --------------- Order lagd sida slut ---------------------*/

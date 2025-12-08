@@ -314,6 +314,11 @@ h2 {
 
 /* --------------- Kontakt sida ---------------------*/
 
+.contact:hover {
+    text-decoration: underline;
+}
+
+/*Kontaktformulär sida*/
 /*Kontaktformulär*/
 .contact-section form {
     background-color: #B6857C;

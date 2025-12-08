@@ -30,6 +30,7 @@ header {
     background-color: #936861;
     padding: 3px;
     border-radius: 2px;
+    pointer-events: none;
 }
 
 .undermeny {
@@ -99,6 +100,7 @@ footer section {
     padding: 3px;
     border-radius: 2px;
     text-decoration: none;
+    pointer-events: none;
 }
 
 /*Kontakta oss länk*/
@@ -113,6 +115,7 @@ footer section {
     padding: 3px;
     border-radius: 2px;
     text-decoration: none;
+    pointer-events: none;
 }
 
 /* --------------- Sidfot slut ---------------------*/

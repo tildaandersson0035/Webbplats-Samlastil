@@ -294,6 +294,10 @@ footer section {
     text-decoration: none;
 }
 
+.contact:hover {
+    text-decoration: underline;
+}
+
 /*Kontaktformulär sida*/
 .contact-section form {
     background-color: #B6857C;

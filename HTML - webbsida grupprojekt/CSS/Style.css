@@ -558,3 +558,25 @@ form input[type="submit"]:hover {
 }
 
 /* --------------- Order lagd sida slut ---------------------*/
+
+/* --------------- "Kontakta oss" skickad sida ---------------------*/
+
+.contact-confirmation {
+    max-width: 700px;
+    margin: 12rem auto 13rem;
+    text-align: center;
+    color: #936861;
+}
+
+.contact-confirmation h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.contact-confirmation p {
+    max-width: 500px;
+    margin: 1rem auto;
+    font-size: 18px;
+}
+
+/* --------------- "Kontakta oss" skickad sida slut ---------------------*/

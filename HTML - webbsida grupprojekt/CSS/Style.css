@@ -28,6 +28,13 @@ header {
     color: #F2E8DC;
 }
 
+.huvudlista a.active {
+    background-color: #936861;
+    padding: 3px;
+    border-radius: 2px;
+    pointer-events: none;
+}
+
 .undermeny {
     display: none;
     position: absolute;
@@ -81,6 +88,7 @@ footer section {
     text-decoration: none;
 }
 
+
 .faq:hover {
     text-decoration: underline;
 }
@@ -89,10 +97,28 @@ footer section {
     color: #F2E8DC;
 }
 
+.faq a.active{
+    background-color: #936861;
+    color: #F2E8DC;
+    padding: 3px;
+    border-radius: 2px;
+    text-decoration: none;
+    pointer-events: none;
+}
+
 /*Kontakta oss länk*/
 .contact {
     color: #F2E8DC;
     text-decoration: none;
+}
+
+.contact a.active{
+    background-color: #936861;
+    color: #F2E8DC;
+    padding: 3px;
+    border-radius: 2px;
+    text-decoration: none;
+    pointer-events: none;
 }
 
 /* --------------- Sidfot slut ---------------------*/
@@ -235,7 +261,7 @@ h2 {
 .beauty-img {
     width: 100%;
     height: 380px;
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 10px;
     display: block;
 }

@@ -491,3 +491,11 @@ form input[type="submit"]:hover {
     text-decoration: none;
     border-radius: 3px;
 }
+
+/*Fix för att minska CLS*/
+.logo {
+    width: 200px;
+    aspect-ratio: 5 / 2; 
+    height: auto;
+    display: block;
+}

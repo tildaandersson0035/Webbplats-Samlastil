@@ -19,6 +19,8 @@ header {
 .huvudlista {
     display: inline-block;
     padding-left: 1.5rem;
+    padding-right: 2rem;
+    font-size: 18px;
 }
 
 .huvudlista a {
@@ -39,7 +41,8 @@ header {
 }
 
 .underlista {
-    margin-top: 0.4rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 .underlista a {

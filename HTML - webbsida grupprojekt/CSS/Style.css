@@ -275,7 +275,8 @@ h2 {
     margin: 3rem auto 3rem;
     font-size: large;
     color: #936861;
-    max-width: 75%;
+    max-width: 50%;
+    text-align: center;
     border: #936861 2px solid;
     border-radius: 2rem;
 }
@@ -285,8 +286,15 @@ h2 {
     margin: 1rem;
 }
 
+.faq-section details p {
+    margin: auto;
+    max-width: 75%;
+    line-height: 2cap;
+}
+
 .faq-section summary {
-    margin: 1rem;
+    margin: auto;
+    margin-bottom: 1rem;
     padding: 1rem;
     border-radius: 5rem;
     background-color: #B6857C;

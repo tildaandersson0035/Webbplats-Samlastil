@@ -76,10 +76,15 @@ footer {
 
 footer section {
     display: inline-block;
-    width: 18rem;
+    width: 20rem;
     vertical-align: top;
     padding-left: 1.5rem;
     line-height: 1.5;
+}
+
+footer h2,
+h3 {
+    font-size: 18px;
 }
 
 /*FAQ länk*/
@@ -97,7 +102,7 @@ footer section {
     color: #F2E8DC;
 }
 
-.faq a.active{
+.faq a.active {
     background-color: #936861;
     color: #F2E8DC;
     padding: 3px;
@@ -112,7 +117,7 @@ footer section {
     text-decoration: none;
 }
 
-.contact a.active{
+.contact a.active {
     background-color: #936861;
     color: #F2E8DC;
     padding: 3px;
@@ -124,6 +129,7 @@ footer section {
 .contact:hover {
     text-decoration: underline;
 }
+
 /* --------------- Sidfot slut ---------------------*/
 
 /* --------------- Indexsida ---------------------*/
@@ -139,25 +145,22 @@ footer section {
     background-color: #B6857C;
     width: fit-content;
     margin: 2rem auto;
-    padding: 1rem 2rem; 
+    padding: 1rem 2rem;
     border-radius: 2rem;
     font-size: 40px;
     font-weight: bold;
     color: #F2E8DC;
     text-align: center;
-    display: block; 
+    display: block;
 }
+
 /* kategori rubrik */
-h2 {
-    font-size: 30px;
-    color: #936861;
-}
 
 h1 {
     font-size: 30px;
     color: #936861;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 3rem;
 }
 
 
@@ -236,7 +239,7 @@ h1 {
     text-align: center;
 }
 
-.product-card h3 {
+.product-card h2 {
     margin: 15px 0 5px;
     color: #B6857C;
     font-size: 25px;

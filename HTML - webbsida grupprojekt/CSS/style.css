@@ -465,7 +465,6 @@ form input[type="submit"]:hover {
     margin-bottom: 0;
 }
 
-/*behövs ändras?*/
 .sr-only {
     position: absolute;
     width: 1px;
